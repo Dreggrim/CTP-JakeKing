@@ -1,0 +1,87 @@
+G:\Educator's Tool this one\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+G:\Educator's Tool this one\Temp\bin\Debug\Assembly-CSharp.dll
+G:\Educator's Tool this one\Temp\bin\Debug\Assembly-CSharp.pdb
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEditor.dll
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.Analytics.dll
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.dll
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.HoloLens.dll
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.Networking.dll
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.UI.dll
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.VR.dll
+G:\Educator's Tool this one\Temp\bin\Debug\Mono.Cecil.dll
+G:\Educator's Tool this one\Temp\bin\Debug\Unity.SerializationLogic.dll
+G:\Educator's Tool this one\Temp\bin\Debug\Unity.DataContract.dll
+G:\Educator's Tool this one\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+G:\Educator's Tool this one\Temp\bin\Debug\Unity.UNetWeaver.dll
+G:\Educator's Tool this one\Temp\bin\Debug\Unity.CecilTools.dll
+G:\Educator's Tool this one\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+G:\Educator's Tool this one\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.xml
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEditor.xml
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.UI.xml
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.Networking.xml
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.Analytics.xml
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.HoloLens.xml
+G:\Educator's Tool this one\Temp\bin\Debug\UnityEngine.VR.xml
+G:\Educator's Tool this one\obj\Debug\Assembly-CSharp.dll
+G:\Educator's Tool this one\obj\Debug\Assembly-CSharp.pdb
+G:\Educator's v2.0\Temp\bin\Debug\Assembly-CSharp.dll
+G:\Educator's v2.0\Temp\bin\Debug\Assembly-CSharp.pdb
+G:\Educator's v2.0\Temp\bin\Debug\UnityEditor.dll
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.Analytics.dll
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.dll
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.HoloLens.dll
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.Networking.dll
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.UI.dll
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.VR.dll
+G:\Educator's v2.0\Temp\bin\Debug\Mono.Cecil.dll
+G:\Educator's v2.0\Temp\bin\Debug\Unity.SerializationLogic.dll
+G:\Educator's v2.0\Temp\bin\Debug\Unity.DataContract.dll
+G:\Educator's v2.0\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+G:\Educator's v2.0\Temp\bin\Debug\Unity.UNetWeaver.dll
+G:\Educator's v2.0\Temp\bin\Debug\Unity.CecilTools.dll
+G:\Educator's v2.0\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+G:\Educator's v2.0\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.xml
+G:\Educator's v2.0\Temp\bin\Debug\UnityEditor.xml
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.UI.xml
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.Networking.xml
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.Analytics.xml
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.HoloLens.xml
+G:\Educator's v2.0\Temp\bin\Debug\UnityEngine.VR.xml
+G:\Educator's v2.0\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+G:\Educator's v2.0\obj\Debug\Assembly-CSharp.dll
+G:\Educator's v2.0\obj\Debug\Assembly-CSharp.pdb
+G:\Educator's v2.1\Temp\bin\Debug\Assembly-CSharp.dll
+G:\Educator's v2.1\Temp\bin\Debug\Assembly-CSharp.pdb
+G:\Educator's v2.1\Temp\bin\Debug\UnityEditor.dll
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.Analytics.dll
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.dll
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.HoloLens.dll
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.Networking.dll
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.UI.dll
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.VR.dll
+G:\Educator's v2.1\Temp\bin\Debug\Mono.Cecil.dll
+G:\Educator's v2.1\Temp\bin\Debug\Unity.SerializationLogic.dll
+G:\Educator's v2.1\Temp\bin\Debug\Unity.DataContract.dll
+G:\Educator's v2.1\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+G:\Educator's v2.1\Temp\bin\Debug\Unity.UNetWeaver.dll
+G:\Educator's v2.1\Temp\bin\Debug\Unity.CecilTools.dll
+G:\Educator's v2.1\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+G:\Educator's v2.1\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.xml
+G:\Educator's v2.1\Temp\bin\Debug\UnityEditor.xml
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.UI.xml
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.Networking.xml
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.Analytics.xml
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.HoloLens.xml
+G:\Educator's v2.1\Temp\bin\Debug\UnityEngine.VR.xml
+G:\Educator's v2.1\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+G:\Educator's v2.1\obj\Debug\Assembly-CSharp.dll
+G:\Educator's v2.1\obj\Debug\Assembly-CSharp.pdb
