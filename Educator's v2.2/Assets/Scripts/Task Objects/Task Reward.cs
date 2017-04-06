@@ -19,9 +19,9 @@ public class TaskReward : MonoBehaviour {
 
 
 
-	public void ShowPopUp()
+	public void ShowPopUp(GameObject Task)
 	{
 		popUp.gameObject.SetActive (true);
-		popUp.GetComponent<RectTransform> ().position = Vector3.zero;
+		popUp.GetComponent<RectTransform> ().position = Task.transform.position;
 	}
 }

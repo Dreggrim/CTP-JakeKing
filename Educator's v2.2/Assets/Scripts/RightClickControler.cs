@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using System.IO;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEditor;
 
 public enum BARTYPE{
 	LINKER = 0,
@@ -129,14 +129,12 @@ public class RightClickControler : MonoBehaviour {
 		switch (type)
 		{
 		case BARTYPE.LINKER:
-			selectImage.SetActive (false);
-			toggleLock.SetActive (true);
-			scale.SetActive (false);
-			layerOrder.SetActive (false);
-			rotation.SetActive (false);
-			objectName.SetActive (false);
+			//not in use
 			break;
+
 		case BARTYPE.OBJECT:
+
+			//open up the rightclick bar with these options enabled
 			selectImage.SetActive (true);
 			toggleLock.SetActive (true);
 			scale.SetActive (true);
@@ -146,6 +144,7 @@ public class RightClickControler : MonoBehaviour {
 
 			objectName.GetComponent<InputField> ().text = sellectedObject.name;
 			break;
+
 		case BARTYPE.TASK:
 			selectImage.SetActive (false);
 			toggleLock.SetActive (true);
@@ -157,6 +156,7 @@ public class RightClickControler : MonoBehaviour {
 
 		}
 
+		//show the rightlcick bar
 		bar.gameObject.SetActive (true);
 
 	}
@@ -164,6 +164,7 @@ public class RightClickControler : MonoBehaviour {
 
 	public void Closebar()
 	{
+		//hide the bar
 		bar.gameObject.SetActive(false);
 	}
 
@@ -201,7 +202,7 @@ public class RightClickControler : MonoBehaviour {
 
 	}
 
-
+	//function used to change hte image of an object to one from a selected file path
 	public void ChangeImage()
 	{
 		Sprite image;
@@ -210,6 +211,7 @@ public class RightClickControler : MonoBehaviour {
 		string path = EditorUtility.OpenFilePanel("Sellect Image", "", "");
 
 		if (path != null) {
+			
 			//read the data
 			byte[] data = File.ReadAllBytes (path);
 
@@ -310,13 +312,7 @@ public class RightClickControler : MonoBehaviour {
 		sellectedObject.transform.Rotate (new Vector3 (0, 0, 5f));
 		sellectedObject.GetComponent<ObjectData> ().UpdateHighlight ();
 	}
-
-
-
-
-
-
-
+		
 	public void SendCodeBlocksToUI(List<GameObject> blocks)
 	{
 		//for each block tell the UI that the corisponding UI element in the UI need to be shown.

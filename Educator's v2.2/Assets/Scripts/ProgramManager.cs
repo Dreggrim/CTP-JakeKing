@@ -2,23 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 
+//program manager to keep track of objects in the scene and activating the simulation
 public class ProgramManager : MonoBehaviour {
 
-
+	//has the simulation been activated and have all the SimObject been created
 	public bool SimActive, objectsCreated;
+
+	//variables controling the movment around the scene
 	[SerializeField] private float scrollSpeed = 1, dragSpeed = 1;
 	[SerializeField] Vector3 MouseStartPos, StartPos;
+
+	//the highlight around the scene that shows when the simulation is active 
 	[SerializeField] Image simActiveHighlight = null;
 
+	//right click bar and the highlight
 	[SerializeField] private GameObject rightClickBar = null;
 	[SerializeField] private Image highlight = null;
 
-
+	//the lists of object
 	[SerializeField] private List<GameObject> ObjectList = new List<GameObject>();
 	[SerializeField] private List<GameObject> TaskList = new List<GameObject>();
 	[SerializeField] private List<GameObject> SimObjectList = new List<GameObject>();
 
-	// Update is called once per frame
+
 	void Update () {
 
 		if (SimActive) {
@@ -47,9 +53,6 @@ public class ProgramManager : MonoBehaviour {
 				Camera.main.orthographicSize = 1;
 			}
 
-
-	
-
 			//camera drag
 			if (Input.GetMouseButtonDown (2)) {
 				MouseStartPos = Camera.main.ScreenToViewportPoint (Input.mousePosition);
@@ -60,18 +63,21 @@ public class ProgramManager : MonoBehaviour {
 				Camera.main.transform.position = StartPos + (dragSpeed * Camera.main.orthographicSize) * (MouseStartPos - Camera.main.ScreenToViewportPoint (Input.mousePosition));
 			}
 
+
 			//clamp the cmaera movment?
-			//dont know if i will have a canvas to work on or not
+
 
 		}
 	}
 
-
+	//togle the simulation
 	public void ToggleSim()
 	{
 		if (SimActive) {
 			objectsCreated = false;
 			SimActive = false;
+
+			//reset the SimObject list
 			ClearSimObjectList ();
 
 		} else {
@@ -80,7 +86,7 @@ public class ProgramManager : MonoBehaviour {
 			simActiveHighlight.gameObject.SetActive(true);
 			highlight.gameObject.SetActive (false);
 
-
+			//if the anything is selected then deselect it beofre the sim starts
 			if (rightClickBar.GetComponent<RightClickControler> ().SelectedYN()) {
 				rightClickBar.GetComponent<RightClickControler> ().DelselectObject ();
 			}

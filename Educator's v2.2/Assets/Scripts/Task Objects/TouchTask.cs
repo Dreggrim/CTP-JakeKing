@@ -24,7 +24,7 @@ public class TouchTask : MonoBehaviour {
 		Debug.Log (touchDistance);
 		touchDistance += Mathf.Sqrt ((extentsOne.x * extentsOne.x) + (extentsOne.y * extentsOne.y));
 		touchDistance += Mathf.Sqrt ((extentsTwo.x * extentsTwo.x) + (extentsTwo.y * extentsTwo.y));
-		touchDistance += 5f;
+		touchDistance += 2f;
 		Debug.Log (touchDistance);
 	}
 
@@ -39,10 +39,14 @@ public class TouchTask : MonoBehaviour {
 		if (Vector2.Distance(objectOne.transform.position, objectTwo.transform.position) <= touchDistance)
 		{
 
+			//depending on the reward variable, trigger the reward
+
+
 			Debug.Log ("touch");
 
+
 			//if so then show pop up and hide myself, but not deactivate
-			reward.ShowPopUp();
+			reward.ShowPopUp(gameObject);
 
 			gameObject.GetComponent<Image> ().enabled = false;
 			gameObject.GetComponentInChildren<Text> ().enabled = false;

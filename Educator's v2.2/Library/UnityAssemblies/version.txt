@@ -1,4 +1,0 @@
-5.4.3f1:2.8.0.0
-StandaloneWindows
-C:/Program Files/Unity5.4.3/Editor/Data/Managed/UnityEngine.dll
-C:/Program Files/Unity5.4.3/Editor/Data/Managed/UnityEditor.dll
